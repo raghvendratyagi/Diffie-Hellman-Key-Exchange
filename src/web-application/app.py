@@ -41,9 +41,9 @@ def index():
 def call_page_upload():
 	return render_template('upload.html')
 '''
------------------------------------------------------------
+------------------------------------------------
 				DOWNLOAD KEY-FILE
------------------------------------------------------------
+------------------------------------------------
 '''
 @app.route('/public-key-directory/retrieve/key/<username>')
 def download_public_key(username):
